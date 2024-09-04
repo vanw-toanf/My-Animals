@@ -7,6 +7,6 @@
    
 ![image](https://github.com/user-attachments/assets/88c8a0f9-e11f-4fab-853c-10448fad8660)
 
-4. And here is accuracy each index class
+4. And here is confusion matrix about accuracy each index class
 
 ![image](https://github.com/user-attachments/assets/7444660c-c83f-4aa2-9454-c91ec077e16f)
