@@ -1,5 +1,5 @@
 # My-Animal
-1. Click to link to get dataset. Put file Dataset/ into My-Animals
+1. Click to link "https://drive.google.com/drive/folders/1Bv5dTrYReNlP_PK8wIM6lu_mQBxJdrMD?usp=sharing" to get dataset. Put file Dataset/ into My-Animals
 
 2. Click to file test_images or test_videos to see example
 
