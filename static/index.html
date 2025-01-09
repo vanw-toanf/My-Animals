@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Predict Animal</title>
+</head>
+<body>
+    <h1>Media Upload</h1>
+    <P>Add your documents here</P>
+    <div id="drop-area">
+        <p style="font-weight: bold;">Drag your file</p> 
+        <br><br><br>
+        <input type="file" id="fileElem" accept="image/*" style="display:none;">
+        <label for="fileElem" class="button-3">Select file</label>
+        <br><br><br>
+    </div>
+    
+    <br>
+    <div id="selectedFileInfo">No file selection.</div>
+    <br>
+    <button id="uploadBtn">Upload</button>
+    <div id="message"></div>
+
+    <script src="/static/script.js"></script>
+    
+</body>
+</html>
