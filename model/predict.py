@@ -7,7 +7,7 @@ from model.MyCNNmodel import myCNN
 
 
 def img_test(img_path):
-    device = torch.device("cuda" if torch.cuda.is_available() else "gpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     categories = ["butterfly", "cat", "chicken", "cow", "dog", "elephant", "horse", "sheep", "spider", "squirrel"]
     model = myCNN(num_class=len(categories)).to(device)
