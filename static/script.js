@@ -56,7 +56,7 @@ document.getElementById('uploadBtn').addEventListener('click', async () => {
     messageDiv.innerText = "Loading...";
 
     try {
-        const response = await fetch('/animal/predict-image/', {
+        const response = await fetch('/predict-image/', {
             method: 'POST',
             body: formData,
         });

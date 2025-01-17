@@ -7,11 +7,7 @@ import asyncio
 from tempfile import NamedTemporaryFile
 from model.predict import img_test
 
-router = APIRouter(
-    prefix="/animal",
-    tags=["animal"],
-)
-# router = APIRouter()
+router = APIRouter()
 
 ALLOWED_EXTENSIONS = {".png", ".jpg", ".jpeg"}
 

@@ -11,7 +11,7 @@ app.include_router(animal.router)
 # Gắn thư mục static
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-@app.get("/animal", response_class=HTMLResponse)
+@app.get("/", response_class=HTMLResponse)
 async def read_index():
     with open("static/index.html", 'r', encoding='utf-8') as f:
         return f.read()

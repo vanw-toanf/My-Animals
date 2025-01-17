@@ -9,10 +9,13 @@
 </head>
 <body>
     <h1>Media Upload</h1>
-    <P>Add your documents here</P>
+    <P>Add your picture here</P>
+    <P>(butterfly, cat, chicken, cow, dog, elephant, horse, sheep, spider, squirrel)</P>
     <div id="drop-area">
         <p style="font-weight: bold;">Drag your file</p> 
-        <br>Or<br><br><br>
+        <p>(only .png, .jpg, .jepg)</p>
+        <p>Or</p>
+        <br>
         <input type="file" id="fileElem" accept="image/*" style="display:none;">
         <label for="fileElem" class="button-3">Select file</label>
         <br><br><br>
@@ -22,6 +25,7 @@
     <div id="selectedFileInfo">No file selection.</div>
     <br>
     <button id="uploadBtn" class="button-3">Upload</button>
+    <br>
     <div id="message"></div>
 
     <script src="/static/script.js"></script>
